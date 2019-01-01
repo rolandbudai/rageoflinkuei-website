@@ -1,26 +1,24 @@
 *{
-	color: rgba(255, 100, 100, 0.5);
+	color: rgba(255, 200, 100, 0.5);
+	text-shadow: 10px 10px 50px rgb(0,0,0);
 }
 
 body {
 	background-image: url(pictures/mk.png);
 	background-position: top left;
 	background-repeat: no-repeat;
-	background-size: 200px 200px;
+	background-size: 170px 170px;
 	background-color: rgba(0,0,0,0.7);
-
 	font-family: 'Staatliches', cursive;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
+	text-align: center;
+
 }
 
 h1 {
-	color: rgb(255, 200, 100);
+	color: rgb(265, 200, 100);
 	text-align: center;
-	border: 1px solid grey;
-	cursor: pointer;
+
+	text-shadow: 10px 10px 30px rgb(0,0,0);
 }
 
 p {
@@ -31,11 +29,6 @@ p {
 	
 }
 
-p:hover {
-	text-decoration: underline;
-	color: grey;
-	text-transform: uppercase;
-}
 
 li {
 	list-style: none;
@@ -54,6 +47,7 @@ ul, .play {
 h2 a {
 	padding:10px;
 	color: rgba(255, 200, 100, 0.7);
+	cursor: pointer;
 }
 
 .container img {
@@ -62,22 +56,27 @@ h2 a {
 	transition: all 1s;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-}
-
 .container img:hover{
 	transform: scale(1.1);
 }
 
 footer {
-	text-align: left;
+	text-align: center;
 }
 
-.intro {
-	text-align: center;
-	color: rgb(255, 200, 100);
+
+.jumbotron {
+	background-color: rgba(10,10,10,0.5)
+
 }
+
+.btn {
+	color: rgb(0, 0, 0);
+}
+
+h4:hover {
+	text-shadow: 1px 1px 1px rgba(255, 200, 100, 0.7);
+	font-size: 2rem;
+
+}
+
