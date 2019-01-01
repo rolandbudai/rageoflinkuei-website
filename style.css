@@ -1,0 +1,83 @@
+*{
+	color: rgba(255, 100, 100, 0.5);
+}
+
+body {
+	background-image: url(pictures/mk.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	background-color: rgba(0,0,0,0.7);
+
+	font-family: 'Staatliches', cursive;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	color: rgb(255, 200, 100);
+	text-align: center;
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+p {
+	line-height: 20px;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 120%;
+	
+}
+
+p:hover {
+	text-decoration: underline;
+	color: grey;
+	text-transform: uppercase;
+}
+
+li {
+	list-style: none;
+	display: block;
+	border: 5px groove rgba(220, 222, 222,0.4);
+	padding: 5px ;
+	margin: 5px;
+
+	text-align: center;
+}
+
+ul, .play {
+	clear: both;
+}
+
+h2 a {
+	padding:10px;
+	color: rgba(255, 200, 100, 0.7);
+}
+
+.container img {
+	height: 200px;
+	margin-bottom: 10px;
+	transition: all 1s;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container img:hover{
+	transform: scale(1.1);
+}
+
+footer {
+	text-align: left;
+}
+
+.intro {
+	text-align: center;
+	color: rgb(255, 200, 100);
+}
